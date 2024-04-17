@@ -21,8 +21,11 @@ let object;
 let controls;
 
 //Set which object to render
-let objToRender = "solen";
+let objToRender = "saturn";
 let currentPlanetIndex = 0; // Keeps track of the current planet index
+
+// Linje 29 til 57 virker ikke, så det skal lige fjernes og så kan man skifte planet ved at ændre linje 24 til den ønskede planet via
+// mappe navn
 
 const planets = ['solen', 'merkur', 'venus', 'jorden', 'mars', 'jupiter', 'saturn', 'uranus', 'Neptune'];
 

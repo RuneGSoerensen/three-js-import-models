@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #000;
+    background-color: #2F3437;
   }
   
   header {
@@ -15,11 +15,4 @@ body {
     font-weight: 900;
   }
   
-  #container3D canvas {
-    width: 100vw !important;
-    height: 100vh !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
   
